@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+nav a {
+  color: white;
+}
